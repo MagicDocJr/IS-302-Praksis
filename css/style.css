@@ -21,6 +21,7 @@ html {
     overflow-y: scroll;
     scroll-behavior: smooth;
     font-family: "Roboto Thin", sans-serif;
+    color: #333;
 }
 /********************** Navbar ******************************/
 nav {
