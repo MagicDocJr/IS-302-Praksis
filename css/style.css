@@ -15,12 +15,12 @@
 /********************** Html/Body ******************************/
 body{
     margin: 0;
-
 }
 
 html {
     overflow-y: scroll;
     scroll-behavior: smooth;
+    font-family: "Roboto Thin", sans-serif;
 }
 /********************** Navbar ******************************/
 nav {
@@ -50,12 +50,12 @@ nav li a {
     text-decoration: none;
     margin-left: 2rem;
     font-size: larger;
-
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     text-decoration: underline;
+    text-decoration-thickness: 0.125rem;
 }
 
 .container {
@@ -98,7 +98,6 @@ text-align: center;
     font-size: 1.1rem;
 max-width: 64rem;
     letter-spacing: 2px;
-
 }
 
 /**********************about-us******************************/
@@ -108,14 +107,17 @@ max-width: 64rem;
     font-size: 2rem;
     margin-bottom: -1rem;
     text-align: center;
+    color: #333;
+}
+
+#about-us{
+    margin-bottom: -15rem;
 }
 .about-grid{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
-
 
 .about-us-image {
     display: block;
@@ -131,7 +133,6 @@ max-width: 64rem;
     font-weight: bolder;
     font-size: 1.7rem;
     margin-bottom: 1.2rem;
-    color:#16a1bf;
 }
 /**********************social-media******************************/
 .social-menu ul{
@@ -148,7 +149,6 @@ max-width: 64rem;
     list-style: none;
     margin: 0.5rem 0.5rem;
     display: inline-block;
-
 }
 
 .social-menu ul li .fab{
@@ -188,7 +188,7 @@ max-width: 64rem;
 /**********************footer******************************/
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     background-color: #333;
     color: white;
@@ -200,3 +200,27 @@ footer p {
     margin: 0.25rem auto;
 }
 
+.divider {
+    width: 100%;
+}
+
+.row{
+    width:100%;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position:relative;
+}
+
+.vertical {
+    margin: 0 4rem;
+    height: auto;
+    border-left: thick solid #ffffff;
+}
+
+footer img {
+    height: 3rem;
+    align-self: center;
+}
