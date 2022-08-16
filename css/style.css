@@ -20,6 +20,7 @@ body{
 
 html {
     overflow-y: scroll;
+    scroll-padding-top: 3rem;
     scroll-behavior: smooth;
     font-family: "Roboto Thin", sans-serif;
     color: #333;
