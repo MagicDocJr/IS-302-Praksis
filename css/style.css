@@ -23,7 +23,7 @@ body{
 
 html {
     overflow-y: scroll;
-    scroll-padding-top: 3rem;
+    scroll-padding-top: 4.5rem;
     scroll-behavior: smooth;
     font-family: "Roboto Thin", sans-serif;
     color: #333;
@@ -67,6 +67,22 @@ nav li a {
     margin-left: 2rem;
     font-size: larger;
 }
+/********************** header/hero ******************************/
+.header-title{
+    align-self: start;
+    margin-top: 2rem;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+    align-self: end;
+    font-size: 4rem;
+    letter-spacing: 0.6rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
@@ -85,6 +101,8 @@ li a:hover {
 
     h1 {
         font-size: 3.5rem !important;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
     }
 
     .gallery-item {
@@ -98,8 +116,14 @@ li a:hover {
     #home-title{
         height: 6rem !important;
         width: auto !important;
-        margin-bottom: 6rem !important;
+        margin-bottom: 7rem !important;
     }
+
+    .header-title{
+        align-self: center;
+        margin-bottom: 8rem;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -108,7 +132,7 @@ li a:hover {
     }
 
     #about-us .section-title {
-        margin-top: 0rem !important;
+        margin-top: 0 !important;
     }
 
     #about-us{
@@ -131,6 +155,7 @@ li a:hover {
 
     svg {
         width: 200vw;
+
     }
 
     .gallery-item {
@@ -138,10 +163,20 @@ li a:hover {
     }
 
     #home-title{
-        height: 4rem !important;
+        height: 4.5rem !important;
         width: auto !important;
-        margin-bottom: 6rem !important;
+        margin-bottom: 8rem !important;
     }
+
+    h1 {
+        font-size: 2.5rem !important;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .header-title{
+        align-self: center;
+        margin-bottom: 3rem;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -150,9 +185,18 @@ li a:hover {
     }
 
     #home-title{
-        height: 2rem !important;
+        height: 3.25rem !important;
         width: auto !important;
         margin-bottom: 6rem !important;
+    }
+    h1 {
+        font-size: 1.5rem !important;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .header-title{
+        align-self: center;
+        margin-top: 2rem;
     }
 }
 
