@@ -383,6 +383,15 @@ li a:hover {
     border-radius: 50%;
     object-fit: cover;
 }
+
+#hermann {
+    object-position: 50% 10%;
+}
+
+#aleksander {
+    object-position: 50% 18%;
+}
+
 .about-us-name{
     text-align: center !important;
     font-weight: bolder;
@@ -557,7 +566,7 @@ footer img {
 
 @media only screen and (min-width: 768px) {
     .sub-move {
-        animation: horizontal-sub-movement 8s linear forwards infinite;
+        animation: horizontal-sub-movement 6s linear forwards infinite;
     }
 }
 
@@ -746,10 +755,10 @@ footer img {
 }
 @keyframes horizontal-sub-movement{
     from {
-        transform: translateX(-100%);
+        transform: translateX(-70vw);
     }
     to {
-        transform: translateX(100%);
+        transform: translateX(70vw);
     }
 }
 @keyframes diving {
