@@ -566,7 +566,13 @@ footer img {
 
 @media only screen and (min-width: 768px) {
     .sub-move {
-        animation: horizontal-sub-movement 6s linear forwards infinite;
+        animation: horizontal-sub-movement 4s linear forwards infinite;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .sub-move {
+        animation: horizontal-sub-movement 7s linear forwards infinite;
     }
 }
 
