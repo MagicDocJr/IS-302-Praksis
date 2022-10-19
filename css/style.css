@@ -843,3 +843,16 @@ footer img {
         transform: rotate(-40deg);
     }
 }
+/*praksis hos oxidane*/
+#header-title-our-internship{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#header-title-our-internship p{
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 64rem;
+    letter-spacing: 2px;
+}
