@@ -19,7 +19,9 @@
 <header>
     <nav>
         <div class="logo">
-            <img src="https://uploads-ssl.webflow.com/60059c74f0e0991a5ef07965/6008259de711ba733c306a4a_logo.svg">
+            <a href="index.html">
+                <img src="https://uploads-ssl.webflow.com/60059c74f0e0991a5ef07965/6008259de711ba733c306a4a_logo.svg">
+            </a>
         </div>
         <div class="hamburger">
             <div class="line1"></div>
@@ -73,6 +75,32 @@
         <p>Aleksander Dokken</p>
     </address>
 </footer>
-<!--link til script for navbar-->
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener('click', () => {
+        //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+    });
+
+    navLinks.addEventListener('click', () => {
+        //Animate Links
+        navLinks.classList.toggle("open");
+        links.forEach(link => {
+            link.classList.toggle("fade");
+        });
+
+        //Hamburger Animation
+        hamburger.classList.toggle("toggle");
+    });
+</script>
 </body>
 </html>
