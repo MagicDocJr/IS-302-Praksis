@@ -856,3 +856,17 @@ footer img {
     max-width: 64rem;
     letter-spacing: 2px;
 }
+
+.internship-img {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin: 0 auto;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.internship-img img {
+    width: 100%;
+    height: auto;
+}
